@@ -3,9 +3,9 @@ const applicationPhotos = [];
 const applicationVideos = [];
 for (let i = 1; i <10; i += 1) {
     if(i>5){
-        applicationVideos.push(`/application/application-${i}.mp4`)
+        applicationVideos.push(`https://github.com/stereaam/portfolio-ceapamircea/blob/master/public/application/application-${i}.mp4?raw=true`)
     } else {
-        applicationPhotos.push(`/application/application-${i}.jpg`)
+        applicationPhotos.push(`https://github.com/stereaam/portfolio-ceapamircea/blob/master/public/application/application-${i}.jpg?raw=true`)
     }
 }
 

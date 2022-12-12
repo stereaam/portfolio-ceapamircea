@@ -1,7 +1,7 @@
 import React from 'react'
 const designPhotos = [];
 for (let i = 1; i < 16; i += 1) {
-  designPhotos.push(`/design/design-${i}.jpg`);
+  designPhotos.push(`https://github.com/stereaam/portfolio-ceapamircea/blob/master/public/design/design-${i}.jpg?raw=true`);
 }
 function DesignContent() {
   return (

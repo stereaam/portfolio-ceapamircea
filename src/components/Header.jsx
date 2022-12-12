@@ -33,9 +33,9 @@ function Header() {
       </nav>
        <div className='navbar-overlay' style={{height: navbarHeight}}>
         <div className='navbar-overlay-content'>
-          <a href="/" className="router-link-active router-link-exact-active category-active" aria-current="page">Home</a>
-          <a href="/about" className="">About</a>
-          <a href="/contact" className="">Contact</a>
+          <a href="/portfolio-ceapamircea/" className="router-link-active router-link-exact-active category-active" aria-current="page">Home</a>
+          <a href="/portfolio-ceapamircea/about" className="">About</a>
+          <a href="/portfolio-ceapamircea/contact" className="">Contact</a>
         </div>
       </div></>
 

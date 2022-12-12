@@ -10,7 +10,7 @@ function Home() {
     <div>
       <Router>
         <Routes>
-          <Route path='/portfolio-ceapamircea/' element={<Design />} />
+          <Route path='/portfolio-ceapamircea/' exact element={<Design />} />
           <Route path='/portfolio-ceapamircea/design' element={<Design />} />
           <Route path='/portfolio-ceapamircea/funktastika' element={<Funktastika />} />
           <Route path='/portfolio-ceapamircea/application' element={<Application />} />

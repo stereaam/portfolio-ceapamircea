@@ -6,9 +6,9 @@ const funktastikaPhotos = [];
 const funktastikaVideos = [];
 for (let i = 1; i <10; i += 1) {
     if(i>5){
-        funktastikaVideos.push(`/funktastika/funktastika-${i}.mp4`)
+        funktastikaVideos.push(`https://github.com/stereaam/portfolio-ceapamircea/blob/master/public/funktastika/funktastika-${i}.mp4?raw=true`)
     } else {
-        funktastikaPhotos.push(`/funktastika/funktastika-${i}.png`)
+        funktastikaPhotos.push(`https://github.com/stereaam/portfolio-ceapamircea/blob/master/public/funktastika/funktastika-${i}.png?raw=true`)
     }
 }
 

@@ -3,7 +3,7 @@ import React from 'react'
 
 const logosPhotos = [];
 for (let i = 1; i < 6; i += 1) {
-  logosPhotos.push(`/logos/logo-${i}.png`);
+  logosPhotos.push(`https://github.com/stereaam/portfolio-ceapamircea/blob/master/public/logos/logo-${i}.png?raw=true`);
 }
 
 function LogosContent() {
