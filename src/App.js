@@ -11,12 +11,12 @@ function App() {
       <Home />
       <Router>
         <Routes>
-          <Route path='/about' element={<About />} />
+          <Route path='/portfolio-ceapamircea/about' element={<About />} />
         </Routes>
       </Router>
       <Router>
         <Routes>
-          <Route path='/contact' element={<Contact />} />
+          <Route path='/portfolio-ceapamircea/contact' element={<Contact />} />
         </Routes>
       </Router>
     </div>
