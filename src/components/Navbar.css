@@ -1,0 +1,16 @@
+.menu-text:hover {
+    border-bottom: 2px solid #000;
+}
+.menu-text{
+    color: black;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.selected{
+    border-bottom: 2px solid #000;
+       color: black;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
