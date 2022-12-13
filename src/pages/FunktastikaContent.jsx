@@ -1,4 +1,5 @@
 import React from 'react'
+import './FunktastikaContent.css'
 
 
 
@@ -17,11 +18,11 @@ function FunktastikaContent() {
    <div className='container'>
           <div className='row align-items-center justify-content-center'>
               {funktastikaPhotos.map((src, index) => {
-                  return <img className='col-4 p-0 m-0 m-md-1 p-md-1' style={{ width: '360px' }} key={index} src={src} alt="funktastika" />;
+                  return <img className='col-4 p-0 m-0 m-md-1 p-md-1 image' key={index} src={src} alt="funktastika" />;
               })}
 
               {funktastikaVideos.map((src, index) => {
-                  return <video controls className='col-4 p-0 m-0 m-md-1 p-md-1' style={{ width: '360px' }}
+                  return <video controls className='col-4 p-0 m-0 m-md-1 p-md-1 image' 
                       key={index} src={src} alt="funktastika" />;
               })}
 

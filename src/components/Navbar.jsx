@@ -6,7 +6,6 @@ import {Link} from 'react-router-dom'
 function Navbar(props) {
   // eslint-disable-next-line react/prop-types
   const { designSelected, funktastikaSelected,applicationSelected, logosSelected } = props
-  console.log(designSelected)
   return (
     <div><ul className="nav justify-content-center"  style={{height:'40px'}}>
     <li className="nav-item">

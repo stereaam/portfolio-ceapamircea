@@ -13,7 +13,7 @@ function LogosContent() {
         {logosPhotos.map((src, index) => {
           return <img
             className='col-4 p-1 m-1'
-            style={(index === 4) ? { width: '500px' } : { width: '360px' }}
+            style={(index === 4) ? { width: '460px' } : { width: '360px' }}
             key={index}
             src={src}
             alt="logos" />;

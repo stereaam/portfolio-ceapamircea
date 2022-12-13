@@ -4,8 +4,9 @@ import menuIcon from '../assets/menu-icon.png'
 import { Link } from 'react-router-dom'
 
 
-function Header() {
+function Header(props) {
   const [navbarHeight, setNavbarHeight] = useState('0%')
+
   return (
     <>
    
@@ -28,7 +29,17 @@ function Header() {
             style={{ width: '50px', color: 'white' }}
             className='p-1 m-1 menu-icon' src={menuIcon}
             alt="collapsed-menu-item"
-            onClick={() => { if (navbarHeight === '0%') { setNavbarHeight('100%') } else { setNavbarHeight('0%')} }}
+            onClick={() => {
+              if (navbarHeight === '0%') {
+                setNavbarHeight('100%')
+                // eslint-disable-next-line react/prop-types
+                props.setScrollable(false)
+              } else {
+                setNavbarHeight('0%')
+                // eslint-disable-next-line react/prop-types
+                props.setScrollable(true)
+              }
+            }}
           />
         </div>
       </nav>
