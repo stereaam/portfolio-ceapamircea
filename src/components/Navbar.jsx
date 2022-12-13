@@ -9,22 +9,22 @@ function Navbar(props) {
   return (
     <div><ul className="nav justify-content-center"  style={{height:'40px'}}>
     <li className="nav-item">
-      <a className="nav-link active px-1 px-lg-4" aria-current="page" href="/portfolio-ceapamircea/design">
+      <a className="nav-link active px-1 px-lg-4" aria-current="page" href="/design">
           <span className={designSelected?'selected':'menu-text'}>Design</span>
       </a>
     </li>
     <li className="nav-item">
-      <a className="nav-link  px-2 px-lg-4" href="/portfolio-ceapamircea/funktastika">
+      <a className="nav-link  px-2 px-lg-4" href="/funktastika">
         <span className={funktastikaSelected?'selected':'menu-text'}>Funktastika</span>
       </a>
     </li>
     <li className="nav-item">
-      <a className="nav-link  px-2 px-lg-4" href="/portfolio-ceapamircea/application">
+      <a className="nav-link  px-2 px-lg-4" href="/application">
         <span className={applicationSelected?'selected':'menu-text'}>Applications</span>
       </a>
     </li>
     <li className="nav-item">
-      <a className="nav-link  px-2 px-lg-4" href="/portfolio-ceapamircea/logos">
+      <a className="nav-link  px-2 px-lg-4" href="/logos">
         <span className={logosSelected?'selected':'menu-text'}>Logos</span>
       </a>
     </li>

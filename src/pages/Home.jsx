@@ -10,11 +10,11 @@ function Home() {
     <div>
       <Router>
         <Routes>
-          <Route path='/portfolio-ceapamircea/' exact element={<Design />} />
-          <Route path='/portfolio-ceapamircea/design' element={<Design />} />
-          <Route path='/portfolio-ceapamircea/funktastika' element={<Funktastika />} />
-          <Route path='/portfolio-ceapamircea/application' element={<Application />} />
-          <Route path='/portfolio-ceapamircea/logos' element={<Logos />} />
+          <Route path='/' exact element={<Design />} />
+          <Route path='/design' element={<Design />} />
+          <Route path='/funktastika' element={<Funktastika />} />
+          <Route path='/application' element={<Application />} />
+          <Route path='/logos' element={<Logos />} />
         </Routes>
       </Router>
     </div>

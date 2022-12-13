@@ -19,9 +19,9 @@ function Header() {
             <a className="text-white" href="/">Mircea Ceapa</a>
           </div>
           <div className='navbar-hide navbar-content'>
-            <a className="text-white" href="/portfolio-ceapamircea">Home</a>
-            <a className="text-white" href="/portfolio-ceapamircea/about">About</a>
-            <a className="text-white" href="/portfolio-ceapamircea/contact">Contact</a>
+            <a className="text-white" href="/">Home</a>
+            <a className="text-white" href="/about">About</a>
+            <a className="text-white" href="/contact">Contact</a>
           </div>
           <img
             style={{ width: '50px', color: 'white' }}
@@ -33,9 +33,9 @@ function Header() {
       </nav>
        <div className='navbar-overlay' style={{height: navbarHeight}}>
         <div className='navbar-overlay-content'>
-          <a href="/portfolio-ceapamircea/" className="router-link-active router-link-exact-active category-active" aria-current="page">Home</a>
-          <a href="/portfolio-ceapamircea/about" className="">About</a>
-          <a href="/portfolio-ceapamircea/contact" className="">Contact</a>
+          <a href="/" className="router-link-active router-link-exact-active category-active" aria-current="page">Home</a>
+          <a href="/about" className="">About</a>
+          <a href="/contact" className="">Contact</a>
         </div>
       </div></>
 
