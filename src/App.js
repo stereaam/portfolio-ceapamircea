@@ -9,16 +9,11 @@ function App() {
   return (
     <div>
       <Home />
-      <Router>
         <Routes>
           <Route path='/about' element={<About />} />
-        </Routes>
-      </Router>
-      <Router>
-        <Routes>
           <Route path='/contact' element={<Contact />} />
         </Routes>
-      </Router>
+
     </div>
   );
 }
