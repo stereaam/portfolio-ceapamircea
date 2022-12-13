@@ -19,9 +19,9 @@ function Header() {
             <a className="text-white" href="/">Mircea Ceapa</a>
           </div>
           <div className='navbar-hide navbar-content'>
-            <a className="text-white" href="/">Home</a>
-            <a className="text-white" href="/about">About</a>
-            <a className="text-white" href="/contact">Contact</a>
+            <a className="text-white" href="/portfolio-ceapamircea">Home</a>
+            <a className="text-white" href="/portfolio-ceapamircea/about">About</a>
+            <a className="text-white" href="/portfolio-ceapamircea/contact">Contact</a>
           </div>
           <img
             style={{ width: '50px', color: 'white' }}
