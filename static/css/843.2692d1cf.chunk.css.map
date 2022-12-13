@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/843.2692d1cf.chunk.css","mappings":"AAAA,OACI,WACJ,CAEA,qCACI,OACI,UACJ,CAEJ","sources":["pages/FunktastikaContent.css"],"sourcesContent":[".image{\r\n    width:360px;\r\n}\r\n\r\n@media screen and (max-width: 1000px) {\r\n    .image{\r\n        width:100%;\r\n    }\r\n\r\n}"],"names":[],"sourceRoot":""}

@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio-ceapamircea/static/css/main.4165ebdd.css",
-    "main.js": "/portfolio-ceapamircea/static/js/main.be632689.js",
+    "main.js": "/portfolio-ceapamircea/static/js/main.7665f7df.js",
     "static/css/888.e6ded748.chunk.css": "/portfolio-ceapamircea/static/css/888.e6ded748.chunk.css",
     "static/js/888.658484f4.chunk.js": "/portfolio-ceapamircea/static/js/888.658484f4.chunk.js",
-    "static/css/843.2692d1cf.chunk.css": "/portfolio-ceapamircea/static/css/843.2692d1cf.chunk.css",
+    "static/css/843.c0ea04d7.chunk.css": "/portfolio-ceapamircea/static/css/843.c0ea04d7.chunk.css",
     "static/js/843.f4321a93.chunk.js": "/portfolio-ceapamircea/static/js/843.f4321a93.chunk.js",
     "static/js/846.f22684d5.chunk.js": "/portfolio-ceapamircea/static/js/846.f22684d5.chunk.js",
     "static/js/216.98b07c5d.chunk.js": "/portfolio-ceapamircea/static/js/216.98b07c5d.chunk.js",
     "static/js/787.46e6d857.chunk.js": "/portfolio-ceapamircea/static/js/787.46e6d857.chunk.js",
     "index.html": "/portfolio-ceapamircea/index.html",
     "main.4165ebdd.css.map": "/portfolio-ceapamircea/static/css/main.4165ebdd.css.map",
-    "main.be632689.js.map": "/portfolio-ceapamircea/static/js/main.be632689.js.map",
+    "main.7665f7df.js.map": "/portfolio-ceapamircea/static/js/main.7665f7df.js.map",
     "888.e6ded748.chunk.css.map": "/portfolio-ceapamircea/static/css/888.e6ded748.chunk.css.map",
     "888.658484f4.chunk.js.map": "/portfolio-ceapamircea/static/js/888.658484f4.chunk.js.map",
-    "843.2692d1cf.chunk.css.map": "/portfolio-ceapamircea/static/css/843.2692d1cf.chunk.css.map",
+    "843.c0ea04d7.chunk.css.map": "/portfolio-ceapamircea/static/css/843.c0ea04d7.chunk.css.map",
     "843.f4321a93.chunk.js.map": "/portfolio-ceapamircea/static/js/843.f4321a93.chunk.js.map",
     "846.f22684d5.chunk.js.map": "/portfolio-ceapamircea/static/js/846.f22684d5.chunk.js.map",
     "216.98b07c5d.chunk.js.map": "/portfolio-ceapamircea/static/js/216.98b07c5d.chunk.js.map",
@@ -22,6 +22,6 @@
   },
   "entrypoints": [
     "static/css/main.4165ebdd.css",
-    "static/js/main.be632689.js"
+    "static/js/main.7665f7df.js"
   ]
 }
