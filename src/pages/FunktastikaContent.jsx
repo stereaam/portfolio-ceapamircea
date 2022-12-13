@@ -16,7 +16,7 @@ for (let i = 1; i <10; i += 1) {
 function FunktastikaContent() {
   return (
    <div className='container'>
-          <div className='row align-items-center justify-content-center'>
+          <div className='row align-items-center justify-content-center pt-2'>
               {funktastikaPhotos.map((src, index) => {
                   return <img className='col-4 p-0 m-0 m-md-1 p-md-1 image' key={index} src={src} alt="funktastika" />;
               })}

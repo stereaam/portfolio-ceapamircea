@@ -12,7 +12,7 @@ for (let i = 1; i <10; i += 1) {
 function ApplicationContent() {
   return (
     <div className='container'>
-          <div className='row align-items-center justify-content-center'>
+          <div className='row align-items-center justify-content-center pt-2'>
               {applicationPhotos.map((src, index) => {
                   return <img className='col-6 p-0 m-0 m-md-1 p-md-1' style={(index === 0) ? { width: '1000px' } : { width: '500px' }} key={index} src={src} alt="application" />;
               })}

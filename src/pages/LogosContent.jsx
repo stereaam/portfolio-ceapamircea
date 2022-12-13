@@ -9,7 +9,7 @@ for (let i = 1; i < 6; i += 1) {
 function LogosContent() {
   return (
    <div className='container my-3' >
-      <div className='row align-items-center justify-content-center'>
+      <div className='row align-items-center justify-content-center pt-2'>
         {logosPhotos.map((src, index) => {
           return <img
             className='col-4 p-1 m-1'
