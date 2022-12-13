@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import './Header.css'
 import menuIcon from '../assets/menu-icon.png'
+import { Link } from 'react-router-dom'
 
 
 function Header() {
@@ -16,12 +17,12 @@ function Header() {
         
         <div className="container-fluid d-flex justify-content-between align-items-center">
           <div className='navbar-content'>
-            <a className="text-white" href="/">Mircea Ceapa</a>
+            <Link className="text-white" to="/">Mircea Ceapa</Link>
           </div>
           <div className='navbar-hide navbar-content'>
-            <a className="text-white" href="/">Home</a>
-            <a className="text-white" href="/about">About</a>
-            <a className="text-white" href="/contact">Contact</a>
+            <Link className="text-white" to="/">Home</Link>
+            <Link className="text-white" to="/about">About</Link>
+            <Link className="text-white" to="/contact">Contact</Link>
           </div>
           <img
             style={{ width: '50px', color: 'white' }}
@@ -33,9 +34,9 @@ function Header() {
       </nav>
        <div className='navbar-overlay' style={{height: navbarHeight}}>
         <div className='navbar-overlay-content'>
-          <a href="/" className="router-link-active router-link-exact-active category-active" aria-current="page">Home</a>
-          <a href="/about" className="">About</a>
-          <a href="/contact" className="">Contact</a>
+          <Link to="/" className="router-link-active router-link-exact-active category-active" aria-current="page">Home</Link>
+          <Link to="/about" className="">About</Link>
+          <Link  to="/contact" className="">Contact</Link>
         </div>
       </div></>
 

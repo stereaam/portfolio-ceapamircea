@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import {Link} from 'react-router-dom'
 
 
 function Navbar(props) {
@@ -9,24 +10,24 @@ function Navbar(props) {
   return (
     <div><ul className="nav justify-content-center"  style={{height:'40px'}}>
     <li className="nav-item">
-      <a className="nav-link active px-1 px-lg-4" aria-current="page" href="/design">
+      <Link className="nav-link active px-1 px-lg-4" aria-current="page" to="/design">
           <span className={designSelected?'selected':'menu-text'}>Design</span>
-      </a>
+      </Link>
     </li>
     <li className="nav-item">
-      <a className="nav-link  px-2 px-lg-4" href="/funktastika">
+      <Link className="nav-link  px-2 px-lg-4" to="/funktastika">
         <span className={funktastikaSelected?'selected':'menu-text'}>Funktastika</span>
-      </a>
+      </Link>
     </li>
     <li className="nav-item">
-      <a className="nav-link  px-2 px-lg-4" href="/application">
+      <Link className="nav-link  px-2 px-lg-4" to="/application">
         <span className={applicationSelected?'selected':'menu-text'}>Applications</span>
-      </a>
+      </Link>
     </li>
     <li className="nav-item">
-      <a className="nav-link  px-2 px-lg-4" href="/logos">
+      <Link className="nav-link  px-2 px-lg-4" to="/logos">
         <span className={logosSelected?'selected':'menu-text'}>Logos</span>
-      </a>
+      </Link>
     </li>
     </ul></div>
     
